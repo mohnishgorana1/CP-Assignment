@@ -9,7 +9,10 @@ int main()
     cin>>n;
     int temp=n;
 
-    if(n<0)     n = -n;
+    if(n<0)  
+    {   
+        cout<<endl<<"Not palindrome";
+    }    
 
 
     while(n>0)
